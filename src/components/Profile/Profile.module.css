@@ -1,5 +1,5 @@
 .profile {
-  max-width: 500px;
+  max-width: 400px;
   height: 100%;
   margin: 20px auto;
   box-shadow: 5px 5px 15px 5px #686060;
@@ -7,12 +7,15 @@
 
 .description {
   text-align: center;
-  padding: 20px 40px;
+  padding: 20px 0;
 }
 
 .avatar {
   border-radius: 50%;
   outline: 2px solid #686060;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .name {
@@ -38,7 +41,7 @@
   background-color: #686060;
 }
 .item {
-  padding: 15px 30px 15px 0px;
+  padding: 15px 20px 15px 0px;
 }
 .item:not(:last-child) {
   border-right: 2px solid #fff;
